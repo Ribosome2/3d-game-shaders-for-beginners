@@ -4,4 +4,7 @@
     <LocalDebuggerEnvironment>PATH=C:\Panda3D-1.10.10-x64\bin;%PATH%</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
 </Project>

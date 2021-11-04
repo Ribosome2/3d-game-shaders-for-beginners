@@ -45,7 +45,7 @@
 #include "linearEulerIntegrator.h"
 #include "audioManager.h"
 #include "audioSound.h"
-
+#include "filePathHelper.h"
 // STRUCTURES
 
 struct FramebufferTexture
@@ -297,6 +297,8 @@ int main
         , 1
         )
     };
+
+  std::cout << "my directory is " << ExePath() << "\n";
 
   double     cameraRotatePhiInitial    =   67.5095;
   double     cameraRotateThetaInitial  =  231.721;
