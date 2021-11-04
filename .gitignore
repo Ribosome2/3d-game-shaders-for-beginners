@@ -7,3 +7,7 @@ blends/**
 *3d-game-shaders-for-beginners*
 !blends/*
 !blends/mill-scene/mill-scene-low-poly-backup.blend
+demonstration/.vs
+demonstration/obj
+demonstration/bin
+demonstration/PandaHelloWorld.exe
