@@ -6,7 +6,7 @@ workspace "HelloPanda"
 project "PandaHelloWorld"
    kind "ConsoleApp"
    language "C++"
-   targetdir "bin/%{cfg.buildcfg}"
+   targetdir ""
 
    files { "src/**.h", "src/**.c","src/**.cpp" }
    includedirs { "C:/Panda3D-1.10.10-x64/include" }
